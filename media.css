@@ -1,0 +1,96 @@
+		
+		/* mobile */
+		
+		@media(min-width:320px){
+			.container{
+				width:90%;
+				margin:auto;
+			}
+			.head-menu{
+				display:block;
+			}
+			.head-nav{
+				display:none;
+			}
+			.portfolio-row{
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.portfolio-col{
+				width:100%;
+			}
+			.portfolio-images img{
+				width:100%;
+			}
+			.portfolio-content span::after{
+				position:absolute;
+				width:15%;
+				top:27%;
+				left:25%;
+			}
+		}
+		
+		
+		/* i-pad */
+		
+		@media(min-width:760px){
+			.container{
+				width:90%;
+				margin:auto;
+			}
+			.head-menu{
+				display:block;
+			}
+			.head-nav{
+				display:none;
+			}
+			.portfolio-row{
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.portfolio-col{
+				width:50%;
+			}
+			.portfolio-images img{
+				width:100%;
+			}
+			.portfolio-content span::after{
+				position:absolute;
+				top:27%;
+				width:15%;
+				left:13%;
+			}
+		}
+		
+		
+		/* laptop */
+		
+		@media(min-width:960px){
+			.container{
+				width:80%;
+				margin:auto;
+			}
+			.head-menu{
+				display:none;
+			}
+			.head-nav{
+				display:block;
+			}
+			.portfolio-row{
+				display:flex;
+				flex-wrap:nowrap;
+			}
+			
+			.portfolio-col{
+				width:25%;
+			}
+			.portfolio-images img{
+				width:100%;
+			}
+			.portfolio-content span::after{
+				position:absolute;
+				top:27%;
+				width:12%;
+				left:8%;
+			}
+		}
